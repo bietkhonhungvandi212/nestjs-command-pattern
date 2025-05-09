@@ -5,7 +5,6 @@ import { AppModule } from './../src/app.module';
 import { DragonKillerService } from './../src/dragon-killer/dragon-killer.service';
 import { WarriorParams } from './../src/command/handler/warrior-dragon-killer/warrior-params';
 import { WitchParams } from './../src/command/handler/witch-dragon-killer/witch-params';
-import { Weapon } from './../src/dragon-killer/dto/dragon-kill.request';
 import { RESULT_TYPE_SYMBOL } from 'src/dragon-killer/constant';
 
 describe('AppController (e2e)', () => {
